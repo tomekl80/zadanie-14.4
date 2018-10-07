@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"return"
+			],
+			[
+				"pro",
+				"props"
+			],
+			[
+				"crea",
+				"createElement"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"prop",
+				"propsTypes"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"movie",
+				"movies"
+			],
+			[
 				"Movie",
 				"Movie"
 			],
@@ -12,20 +40,8 @@
 				"movies"
 			],
 			[
-				"pro",
-				"propsTypes"
-			],
-			[
 				"fin",
 				"function"
-			],
-			[
-				"re",
-				"render"
-			],
-			[
-				"crea",
-				"createClass"
 			],
 			[
 				"li",
@@ -34,10 +50,6 @@
 			[
 				"wi",
 				"max-width"
-			],
-			[
-				"movie",
-				"moviesElements"
 			],
 			[
 				"me",
@@ -104,8 +116,16 @@
 			"file": "js/script.js",
 			"settings":
 			{
-				"buffer_size": 1762,
+				"buffer_size": 1679,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "'use scrict';\n\nvar movies = [\n\t{\n\t\tid: 1,\n\t\ttitle: 'Harry Potter',\n\t\tdesc: 'Film o czarodzieju',\n\t\timage: 'images/harry_potter.jpg'\n\t},\n\t{\n\t\tid: 2,\n\t\ttitle: 'Król Lew',\n\t\tdesc: 'Film opowiadający historię króla sawanny',\n\t\timage: 'images/lion_king.jpg'\n\t},\n\t{\n\t\tid: 3,\n\t\ttitle: 'Miasto Aniołów',\n\t\tdesc: 'Film o zejściu anioła na ziemię',\n\t\timage: 'images/city_of_angels.jpg'\n\t},\n\t{\n\t\tid: 4,\n\t\ttitle: 'Kung fu Panda',\n\t\tdesc: 'Film o sympatycznej pandzie ćwiczącej kung fu',\n\t\timage: '/images/kung_fu_panda.jpg'\n\t},\n\t{\n\t\tid: 5,\n\t\ttitle: 'Listy do M',\n\t\tdesc: 'Film ukazujący perypetie kilkoro ludzi',\n\t\timage: 'images/listy_do_m.jpg'\n\t}\n];\n\nvar moviesElements = movies.map(function (movie) {\n\treturn React.createElement('li', {key: movie.id},\n\t\tReact.createElement('h2', {}, movie.title),\n\t\tReact.createElement('p', {}, movie.desc),\n\t\tReact.createElement('img', {\n\t\t\tsrc: movie.image,\n\t\t\t})\n\t\t);\n});\n\nvar element = \n\tReact.createElement('div', {},\n    \tReact.createElement('h1', {}, 'Lista filmów'),\n    \tReact.createElement('ul', {}, moviesElements)\n    );\n\nReactDOM.render(element, document.getElementById('app'));",
+			"settings":
+			{
+				"buffer_size": 1116,
 				"line_ending": "Windows"
 			}
 		}
@@ -171,6 +191,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Tomek/Documents/Kodilla/Projekt/Modul-14/zadanie-14.4/js/test.js",
+		"/C/Users/Tomek/Documents/Kodilla/Projekt/Modul-14/zadanie-14.4/.gitignore",
 		"/C/Users/Tomek/Documents/Kodilla/Projekt/Modul-14/zadanie-14.4/package.json",
 		"/C/Users/Tomek/Documents/Kodilla/Projekt/Modul-14/zadanie-14.2/sass/style.scss",
 		"/C/Users/Tomek/Documents/Kodilla/Projekt/Modul-14/zadanie-14.2/css/style.prefixed.css",
@@ -237,7 +259,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -284,6 +306,18 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
@@ -293,7 +327,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -302,15 +336,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1762,
+						"buffer_size": 1679,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								849,
-								849
+								1679,
+								1679
 							]
 						],
 						"settings":
@@ -336,13 +370,68 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 486.0,
+						"translation.y": 253.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1116,
+								1116
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
